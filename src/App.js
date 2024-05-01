@@ -57,6 +57,7 @@ function App() {
         setLoading(false)
       } catch (error) {
         alert("Getting Error While Fetching API! Please Try Again!!!")
+        setLoading(false)
       }
     };
     fetchData();
